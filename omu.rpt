@@ -1,6 +1,6 @@
 Report       : omu
 Date         : 01-09-2020
-Time         : 23:37:19
+Time         : 23:40:43
 
 Compiler     : BASCOM-AVR LIBRARY V 2.0.7.8
 Processor    : TINY2313
@@ -8,9 +8,9 @@ SRAM         : 80 hex
 EEPROM       : 80 hex
 ROMSIZE      : 800 hex
 
-ROMIMAGE     : 718 hex  -> Will fit into ROM
-ROMIMAGE     :  1816 dec
-FLASH USED   :  88  %
+ROMIMAGE     : 6D0 hex  -> Will fit into ROM
+ROMIMAGE     :  1744 dec
+FLASH USED   :  85  %
 BAUD         : 9600 Baud
 XTAL         : 8000000 Hz
 BAUD error   : 0.16%
@@ -21,7 +21,7 @@ S-Stacksize  : 10 hex
 S-Stackstart : B8 hex
 Framesize    : 20 hex
 Framestart   : 88 hex
-Space left   :  11  dec
+Space left   :  6  dec
 
 LCD DB7      : PORTB.7
 LCD DB6      : PORTB.6
@@ -88,20 +88,12 @@ COMPARE1B                        Word              0048          72
 PWM0A                            Byte              0056          86 
 PWM0B                            Byte              005C          92 
 ERR                              Bit [2]           0006          6 
-LIFESIGNAL                       Integer           0060          96 
-LIFE                             Integer           0062          98 
-INN1                             Integer           0064          100 
-INN2                             Integer           0066          102 
-INN3                             Integer           0068          104 
-INN4                             Integer           006A          106 
-INN5                             Integer           006C          108 
-INN6                             Integer           006E          110 
-INN7                             Integer           0070          112 
-INN8                             Integer           0072          114 
-INN9                             Integer           0074          116 
-INN10                            Integer           0076          118 
-INN11                            Integer           0078          120 
-INN12                            Integer           007A          122 
+LIFESIGNAL                       Byte              0060          96 
+LIFE                             Integer           0061          97 
+SEND                             String * 15       0063          99 
+INN                              Byte(11)          0073          115 
+A                                Byte              007E          126 
+A2                               String * 1        007F          127 
 
 --------------------------------------------------------------------------------
 Constant                         Value
@@ -547,6 +539,7 @@ _HWSTACK_LOW                     &H00B7
 _SWSTACK_LOW                     &H00A8
 _FRAME_HIGH                      &H00A9
 _XMEGA                           0
+ID                               "001"
 CBITINFINITY                     0
 CMBITINFINITY                    1
 CBITZERO                         1
@@ -609,3 +602,4 @@ PWM1B                            not used
 PWM0A                            not used
 PWM0B                            not used
 
+Source string could be too big to fit into target string [___TEMP1>A2]  in line  0 
