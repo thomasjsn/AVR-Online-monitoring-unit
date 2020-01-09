@@ -1,8 +1,8 @@
-## Source code for project: [Serial port IO module with 11 inputs](https://link.stdout.no/k)
+## Source code for project: [Serial port IO module with 15 inputs](https://link.stdout.no/m)
 
-Serial port interface for 11 digital inputs, uses an AVR ATtiny2313 microcontroller.
+Serial port interface for 15 digital inputs, uses an AVR ATmega8 microcontroller.
 
-![Serial port IO module with 11 inputs](image.jpg)
+![Serial port IO module with 15 inputs](image.jpg)
 
 Written in basic, using [Bascom-AVR](http://www.mcselec.com/).
 
