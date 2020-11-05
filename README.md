@@ -1,10 +1,21 @@
-## Source code for project: [Serial port IO module with 15 inputs](https://link.stdout.no/m)
+# Serial port IO module with 15 inputs
 
-Serial port interface for 15 digital inputs, uses an AVR ATmega8 microcontroller.
+> Serial (RS-232) interface module; providing 15 digital inputs. Uses an AVR ATmega8 microcontroller.
 
-![Serial port IO module with 15 inputs](image.jpg)
+Project documentation available at: https://cavelab.dev/wiki/Serial_port_IO_module_with_15_inputs
 
-Written in basic, using [Bascom-AVR](http://www.mcselec.com/).
+![Serial port IO module with 15 inputs](https://cavelab.dev/images/thumb/2/23/Omu_ferdig_montert_high.JPG/600px-Omu_ferdig_montert_high.JPG)
 
-### Author
-[Thomas Jensen](https://thomas.stdout.no)
+Written in basic, using [BASCOM-AVR](http://www.mcselec.com/).
+
+## Author
+**Thomas Jensen**
+* Twitter: [@thomasjsn](https://twitter.com/thomasjsn)
+* Github: [@thomasjsn](https://github.com/thomasjsn)
+* Website: [cavelab.dev](https://cavelab.dev/wiki/User:Thomas)
+
+## License
+The MIT License (MIT). Please see [license file](LICENSE.txt) for more information.
+
+---
+_This README was automatically generated using the MediaWiki API_ (`pageid:362`)
